@@ -4,11 +4,11 @@
 
 **Envizi: (Procurement Officer)**
 
-1. On Envizi UI , navigate to organization hierarchy to show the CGI Organiztaion structure. The Organization has various business operations like consultion services, IT operations and also Manufacturing plants.
+1. On Envizi UI , navigate to organization hierarchy to show the OrgX Organiztaion structure. The Organization has various business operations like consultion services, IT operations and also Manufacturing plants.
 
 < Explain various emissios w.r.t different business operations and untis> 
 
-2. Navigate to Manufacturing plants and show CGI manufacturing unit - "CGI France - Puteaux Plant Ops" , The manufacturing untis deals with different suppliers to procure raw materials  like chemicals, etc or products from different suppliers.  The Organizations need to capture the emissions related to these procured items as part of their Scope 3 Category 1 Purchased Goods & Services emissions. 
+2. Navigate to Manufacturing plants and show OrgX manufacturing unit - "OrgX France - Puteaux Plant Ops" , The manufacturing untis deals with different suppliers to procure raw materials  like chemicals, etc or products from different suppliers.  The Organizations need to capture the emissions related to these procured items as part of their Scope 3 Category 1 Purchased Goods & Services emissions. 
    
 3.  Now, lets see how SCIS would help organization to identify which are the products / suppliers impacting their scope 3 cat1 emissions and how the organization engages with Suppliers to capture the more accurate carbon emissions for each of these raw material / products and which in turn help them to reduce the emissions.  
 
@@ -64,7 +64,7 @@
 
 **Envizi: (Procurement Officer)**
 
-31. On Envizi UI , navigate to organization hierarchy -> Manufacturing plant of CGI and drill down to the location which is mapped with the SCIS location. 
+31. On Envizi UI , navigate to organization hierarchy -> Manufacturing plant of OrgX and drill down to the location which is mapped with the SCIS location. 
 32. The emissions related to this locations are aggregated in different accounts like Spend-based_xxx and Supplier-specific_xxx which are coming from the SCIS system. 
 
 
