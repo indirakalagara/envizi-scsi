@@ -1,6 +1,6 @@
 
 
-**Steps: **
+**Steps:**
 
 **Envizi: (Procurement Officer)**
 
