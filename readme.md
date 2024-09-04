@@ -2,8 +2,7 @@
 
 ## Usecase:
 
-
-
+Envizi captures scope 1,scope 2 and scope 3 emissions and can calculate the spend-based emissions for scope 3. However, a more accurate methodology for Scope 3 Cat 1 emission is using the Product/SKU-based emissions from the supplier. The SCIS-Envizi addon helps achieve this, by engaging with the suppliers in IBM Supply Chain Intelligence Suite and procuring the  SKU-based emissions from the supplier.
 
 ## Pre-requisites 
 
@@ -12,7 +11,7 @@
 2. Extract location and location reference
 
 ### SCIS :
-1. Identify the Factor codes for the products purchased.
+1. Associate the Factor codes for the products purchased.
 
 
 ## Steps to Follow 
@@ -21,8 +20,6 @@
    1. Download the sample files
    2. Prepare master data files
    3. Upload the master data into SCIS
-   4. Prepare Orders and Orderlines
-   5. Upload Order and Orderlines
 
 2. Prepare **Oder data**
    1. Prepare Orders and Orderlines
@@ -31,7 +28,7 @@
 3. Verify data uploaded from **Data Explorer**
 
 
-4. Identiy and **Prioritize the Suppliers / Products**
+4. Mark as Material - Identiy and **Prioritize the Suppliers / Products**
 
 5. Engage with Supplier - **Request PCF for product**
    
@@ -54,8 +51,13 @@ Download the sample files from the  [IBM Envizi Supply Chain Intelligence](https
 
 ### Step 1.2 : Prepare master data files
 
+Fill in the data in the sample files uploaded in previous step. 
+Refer to the [data dictionary](https://www.ibm.com/docs/en/SSULNGL/attachments/envizi_data_dictionary.xlsx.zip) for details on the data object and the field names.
+
 ### Step 1.3 : Upload the master data into SCIS
 
+Login into the [IBM Supply Chain Intelligence suite](https://www.supply-chain.ibm.com/) using your IBM Id credentials.
+Traverse to Control Tower -> Management -> Job Managament from the hamburger menu on the left side of the screen
 
 <img src="images/ImportJob1.png">
 
