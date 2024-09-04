@@ -6,13 +6,14 @@
 
 1. On Envizi UI , navigate to organization hierarchy to show the CGI Organiztaion structure. The Organization has various business operations like consultion services, IT operations and also Manufacturing plants.
 
-<> Explain various emissios w.r.t different business operations and untis
+< Explain various emissios w.r.t different business operations and untis> 
 
 2. Navigate to Manufacturing plants and show CGI manufacturing unit - "CGI France - Puteaux Plant Ops" , The manufacturing untis deals with different suppliers to procure raw materials  like chemicals, etc or products from different suppliers.  The Organizations need to capture the emissions related to these procured items as part of their Scope 3 Category 1 Purchased Goods & Services emissions. 
    
 3.  Now, lets see how SCIS would help organization to identify which are the products / suppliers impacting their scope 3 cat1 emissions and how the organization engages with Suppliers to capture the more accurate carbon emissions for each of these raw material / products and which in turn help them to reduce the emissions.  
 
 **SCIS: (Procurement Officer)**
+
 4. Click on Supply chain intelligent suite on Envizi home page -> Quick links
 
 5. Navigate to Control Tower -> Data Explorer.  This page shows various tabs relates to Locations, Organizations, Orderlines , Orders and Products. 
@@ -43,12 +44,14 @@
 22. On "Product carbon footprint (PCF) request - Productxx " , Supplier enter the details related to Emissions like * Product carbon footprint (kgCO2e)* , specific *Calcuation method* used to derive the PCF as well as details like the validation period of the PCF data along with other details like Primary data share percent, Third party verified , etc. 
 
 **SCIS: (Procurement Officer)**
+
 23. Once the PCF data has submitted by the Supplier, the data will be reflected in SCIS dashboard. Naviate to Control Tower -> Supplier Engagement -> Engagement tab
 24. View the Status of the PCF request against the suppliers. 
 25. Chose the Supplier and click
 26. On <Supplier> sustainability and compliance details page click on the "Date" under the "Received" to view the PCF data shared by the supplier for a given product under "Prioritized Products"
     
 **SCIS: Emissions Management**
+
 27.  Navigate to  *Control Tower -> Emission Management -> Emissions*
 28.  This page provide different views  of Top emissions contributors with respect to Suppliers / Product Categories / Locations, etc for a given time period. The Procurement officer can also identify what % of  the emissions are calculated using PCF method vs Spend based (which is less accurate method)
 
