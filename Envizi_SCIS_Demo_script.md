@@ -31,17 +31,14 @@
 14.  Scroll down to "Resolutions" section and Click on "Request PCF data from Supplier"
 15.  On Request PCF data using the supplier portal , view product details as well as the contact details of the supplier to whom this request would be send. 
 16.  Once verified, Click on "Send PCF Requests".  You can also click on "Preview email" before sending the PCF request. 
-17.  You can navigate to 
-
-18. Naviage to  *Control Tower -> Supplier Engagement -> Engagement* tab and   look at the status against the supplier for the product which PCF request raised under the section "Supplier PCF requests"
+17. Naviage to  *Control Tower -> Supplier Engagement -> Engagement* tab and   look at the status against the supplier for the product which PCF request raised under the section "Supplier PCF requests"
 
 **SCIS: Supplier Portal : (Supplier)**
 
-19. The Supplier (X) receive an email about the PCF request for a speicifc product along with link for the Supplier Portal.
-    
-20. Now, the supplier would login to the Portal and view the requests for PCF data from the Buyer Organization. 
-21. Supplier chose the product for which they want to submit the PCF data and click on the "Complete Form" button
-22. On "Product carbon footprint (PCF) request - Productxx " , Supplier enter the details related to Emissions like * Product carbon footprint (kgCO2e)* , specific *Calcuation method* used to derive the PCF as well as details like the validation period of the PCF data along with other details like Primary data share percent, Third party verified , etc. 
+18. The Supplier (X) receives an email about the PCF request  along with link to login into the Supplier Portal. The supplier clicks on the link.
+19. Now, the supplier would login to the Portal and view the requests for PCF data from the Buyer Organization. 
+20. Supplier chose the product for which they want to submit the PCF data and click on the "Complete Form" button
+21. On "Product carbon footprint (PCF) request - Productxx " , Supplier enter the details related to Emissions like * Product carbon footprint (kgCO2e)* , specific *Calcuation method* used to derive the PCF as well as details like the validation period of the PCF data along with other details like Primary data share percent, Third party verified , etc. 
 
 **SCIS: (Procurement Officer)**
 
@@ -54,12 +51,13 @@
 
 27.  Navigate to  *Control Tower -> Emission Management -> Emissions*
 28.  This page provide different views  of Top emissions contributors with respect to Suppliers / Product Categories / Locations, etc for a given time period. The Procurement officer can also identify what % of  the emissions are calculated using PCF method vs Spend based (which is less accurate method)
+Notice the emission by Factor type, The intent is to engage with suppliers more to reduce the spendFactor-based emissions and increase the supplier emissions
 
     
 **SCIS: Export to Envizi for Emission Consolidation:** 
 
-29.  On   *Control Tower -> Emission Management -> Summary* tab, the user can select a month to view the emissions corresponding to the particular location (location mapped ). The pages displays  emissions calculated using the PCF method and also the Spend based method for the product where PCF data is not available.  
-30.  The user can click on *Export * button to send the data back to *Envizi*  This emissions data from SCIS will be placed in the AWS S3 folder provided by Envizi which is pre-configured for this demo. 
+29.   On   *Control Tower -> Emission Management -> Summary* tab, the user can select a month to view the emissions corresponding to the particular location (location mapped ). The pages displays  emissions calculated using the PCF method and also the Spend based method for the product where PCF data is not available.  
+30.   The user can click on *Export * button to send the data back to *Envizi*  This emissions data from SCIS will be placed in the AWS S3 folder provided by Envizi which is pre-configured for this demo. 
 
 
 **Envizi: (Procurement Officer)**
